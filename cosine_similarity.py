@@ -30,7 +30,7 @@ def get_index_from_title(title):
 
 
 ### Step 1 : Read CSV File
-df = pd.read_csv("movie_dataset.csv")
+df = pd.read_csv("../movie_recommendation_engine/dataset/movie_dataset.csv")
 #print(df.columns)
 
 ### Step 2 : Select Features
